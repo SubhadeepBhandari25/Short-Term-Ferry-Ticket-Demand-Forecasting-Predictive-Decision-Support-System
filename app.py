@@ -7,6 +7,7 @@ Enhanced with a modern glassmorphic dark theme and fluid motion animations.
 """
 
 import os
+import sys
 import json
 import base64
 import joblib
@@ -16,8 +17,16 @@ import streamlit as st
 import plotly.graph_objects as go
 import plotly.express as px
 
-# Path Constants
+# Path Constants and Environment Setup
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
+if APP_DIR not in sys.path:
+    sys.path.insert(0, APP_DIR)
+
+try:
+    import src.models  # noqa: F401 - ensures custom models are registered for joblib unpickling
+except Exception:
+    pass
+
 LOGO_PATH = os.path.join(APP_DIR, "assets", "logo.png")
 
 # Helper for base64 logo embedding
