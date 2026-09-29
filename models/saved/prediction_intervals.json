@@ -1,0 +1,214 @@
+{
+  "sales": {
+    "15m": {
+      "Naive": {
+        "margin_90": 37.0,
+        "margin_95": 64.0
+      },
+      "Moving Average": {
+        "margin_90": 36.75,
+        "margin_95": 58.5
+      },
+      "Linear Regression": {
+        "margin_90": 29.85,
+        "margin_95": 47.5
+      },
+      "Random Forest": {
+        "margin_90": 28.78,
+        "margin_95": 45.94
+      },
+      "Gradient Boosting": {
+        "margin_90": 28.88,
+        "margin_95": 46.22
+      },
+      "XGBoost": {
+        "margin_90": 28.43,
+        "margin_95": 46.18
+      }
+    },
+    "30m": {
+      "Naive": {
+        "margin_90": 41.0,
+        "margin_95": 70.0
+      },
+      "Moving Average": {
+        "margin_90": 40.28,
+        "margin_95": 65.5
+      },
+      "Linear Regression": {
+        "margin_90": 31.05,
+        "margin_95": 49.81
+      },
+      "Random Forest": {
+        "margin_90": 29.17,
+        "margin_95": 46.57
+      },
+      "Gradient Boosting": {
+        "margin_90": 29.57,
+        "margin_95": 47.17
+      },
+      "XGBoost": {
+        "margin_90": 29.11,
+        "margin_95": 47.74
+      }
+    },
+    "1h": {
+      "Naive": {
+        "margin_90": 48.0,
+        "margin_95": 83.0
+      },
+      "Moving Average": {
+        "margin_90": 48.75,
+        "margin_95": 81.0
+      },
+      "Linear Regression": {
+        "margin_90": 34.22,
+        "margin_95": 54.67
+      },
+      "Random Forest": {
+        "margin_90": 29.76,
+        "margin_95": 48.86
+      },
+      "Gradient Boosting": {
+        "margin_90": 30.13,
+        "margin_95": 50.05
+      },
+      "XGBoost": {
+        "margin_90": 29.67,
+        "margin_95": 49.04
+      }
+    },
+    "2h": {
+      "Naive": {
+        "margin_90": 65.0,
+        "margin_95": 113.0
+      },
+      "Moving Average": {
+        "margin_90": 67.0,
+        "margin_95": 111.75
+      },
+      "Linear Regression": {
+        "margin_90": 41.97,
+        "margin_95": 64.44
+      },
+      "Random Forest": {
+        "margin_90": 32.87,
+        "margin_95": 55.38
+      },
+      "Gradient Boosting": {
+        "margin_90": 32.58,
+        "margin_95": 54.68
+      },
+      "XGBoost": {
+        "margin_90": 31.76,
+        "margin_95": 54.51
+      }
+    }
+  },
+  "redemption": {
+    "15m": {
+      "Naive": {
+        "margin_90": 39.0,
+        "margin_95": 71.0
+      },
+      "Moving Average": {
+        "margin_90": 37.5,
+        "margin_95": 64.25
+      },
+      "Linear Regression": {
+        "margin_90": 30.43,
+        "margin_95": 52.0
+      },
+      "Random Forest": {
+        "margin_90": 27.08,
+        "margin_95": 48.1
+      },
+      "Gradient Boosting": {
+        "margin_90": 27.04,
+        "margin_95": 47.38
+      },
+      "XGBoost": {
+        "margin_90": 27.12,
+        "margin_95": 47.6
+      }
+    },
+    "30m": {
+      "Naive": {
+        "margin_90": 42.0,
+        "margin_95": 76.0
+      },
+      "Moving Average": {
+        "margin_90": 41.28,
+        "margin_95": 72.0
+      },
+      "Linear Regression": {
+        "margin_90": 31.76,
+        "margin_95": 53.75
+      },
+      "Random Forest": {
+        "margin_90": 27.46,
+        "margin_95": 47.63
+      },
+      "Gradient Boosting": {
+        "margin_90": 28.24,
+        "margin_95": 48.6
+      },
+      "XGBoost": {
+        "margin_90": 27.64,
+        "margin_95": 49.03
+      }
+    },
+    "1h": {
+      "Naive": {
+        "margin_90": 50.0,
+        "margin_95": 92.0
+      },
+      "Moving Average": {
+        "margin_90": 50.75,
+        "margin_95": 91.0
+      },
+      "Linear Regression": {
+        "margin_90": 35.52,
+        "margin_95": 59.2
+      },
+      "Random Forest": {
+        "margin_90": 28.52,
+        "margin_95": 50.2
+      },
+      "Gradient Boosting": {
+        "margin_90": 28.68,
+        "margin_95": 50.99
+      },
+      "XGBoost": {
+        "margin_90": 28.39,
+        "margin_95": 50.61
+      }
+    },
+    "2h": {
+      "Naive": {
+        "margin_90": 70.0,
+        "margin_95": 125.0
+      },
+      "Moving Average": {
+        "margin_90": 73.0,
+        "margin_95": 125.51
+      },
+      "Linear Regression": {
+        "margin_90": 43.62,
+        "margin_95": 70.21
+      },
+      "Random Forest": {
+        "margin_90": 30.81,
+        "margin_95": 55.54
+      },
+      "Gradient Boosting": {
+        "margin_90": 31.01,
+        "margin_95": 55.13
+      },
+      "XGBoost": {
+        "margin_90": 30.42,
+        "margin_95": 55.78
+      }
+    }
+  }
+}
