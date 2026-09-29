@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.git/
+.gitignore
+.dockerignore
+venv/
+.venv/
+.ipynb_checkpoints/
+*.md
+!README.md
+notebooks/
